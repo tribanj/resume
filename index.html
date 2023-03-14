@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <script src="js/html2canvas.min.js"></script>
+
+    <!-- jsPDF library -->
+    <script src="js/jsPDF/dist/jspdf.umd.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@200;300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/f877c7062b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- <button onclick="Convert_HTML_To_PDF();">Convert HTML to PDF</button> -->
+
+    <div id="content">
+        <div class="main-page">
+            <h1>Resume</h1>
+            <div class="container">
+
+                <div class="sidebar-left">
+                    <div class="profile">
+                        <div class="img">
+                            <img src="./WhatsApp Image 2023-01-05 at 22.02.00 (1).jpeg" alt="Profile_img">
+                        </div>
+                        <div class="intro">
+                            Tribhuwan Kumar
+                        </div>
+                        <div class="para">
+                            <p>Web Developer</p>
+                        </div>
+                        <div class="details">
+                            <h3>Details</h3>
+                            IKGPTU Jalandhar Punjab
+                            <br>
+                            jalandhar 144603
+                            <div class="contact">
+                                <i class="fa-solid fa-phone"></i>
+                                7700826056 <br>
+                                <i class="fa-solid fa-envelope"></i>
+                                tribhuwanja@gmail.com
+                                <h6>Datew of Birth</h6>
+                                <p>05/05/2002</p>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <h3>Skills</h3>
+                            <div class="skill-container">
+                                <div class="skill html">HTML</div>
+                            </div>
+                            <div class="skill-container">
+                                <div class="skill progress">CSS</div>
+                            </div>
+                            <div class="skill-container">
+                                <div class="skill progress1">JavaScript</div>
+                            </div>
+                            <div class="skill-container">
+                                <div class="skill progress2">ReactJs</div>
+                            </div>
+                            <div class="skill-container">
+                                <div class="skill progress3">Bootstrap</div>
+                            </div>
+                        </div>
+                        <div class="language">
+                            <h3>Languages</h3>
+                            <li>Hindi</li>
+                            <li>English</li>
+                        </div>
+                        <div class="social-icons">
+                            <!-- <a href=""><i class="fab fa-facebook"></i></a> -->
+                            <a href="https://twitter.com/Tribhuwan_93"><i class="fab fa-twitter-square"
+                                    aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com/revel_tejash93_a/"><i class="fab fa-instagram"
+                                    aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/tribhuwan24/"><i class="fab fa-linkedin"
+                                    aria-hidden="true"></i></a>
+                            <a href="https://github.com/tribanj"><i class="fab fa-github" aria-hidden="true"></i></a>
+                            <a href="https://youtube.com/@tribhuwanm"><i class="fab fa-youtube"
+                                    aria-hidden="true"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sidebar-right">
+                    <div class="content">
+                        <h2>Profile</h2>
+                        <p class="page tenth"> Experienced Web Developer adept in all stages of advanced web development.
+                            Knowledgeable in
+                            user
+                            interface, testing, and debugging processes. Bringing forth expertise in design,
+                            installation,
+                            testing and maintenance of web systems. Equipped with a diverse and promising skill-set.
+                            Proficient
+                            in an assortment of technologies including HTML, CRS, JavaScript, React MongoDB, Bootstrap
+                            and
+                            Microsoft SQL Server. Able to effeFively self-manage during independent projects, as well as
+                            collaborate in a team setting
+                        </p>
+                        <div class="education">
+                            <h2>Education</h2>
+                            <div class="tenth">
+                                <h3>10<sup>th</h3>
+                                </sup><strong> Shree Krishna Inter School NAYAGAON, Khagaria, Bihar</strong><br>
+                                MARCH 2017- MARCH 2018
+
+                            </div>
+                            <div class="twlth tenth">
+                                <h3>10<sup>th</h3>
+                                </sup><strong> Shree Krishna Inter School NAYAGAON, Khagaria, Bihar</strong><br>
+                                MARCH 2018- MARCH 2020
+
+                            </div>
+                            <div class="card">
+                                <div class="betchler tenth">
+                                    <h3>B.tech</h3>
+                                    </sup><strong>I.K Gujral Punjab Technical University</strong><br>
+                                    2020-2024
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="hobby tenth">
+                            <h2>hobbies</h2>
+                            <p>Playing Volleyball</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <a href="./Profile.pdf" class="btn">Download CV</a>
+        <footer>Designed by Tribhuwan</footer>
+    </div>
+</body>
+
+</body>
+
+</html>

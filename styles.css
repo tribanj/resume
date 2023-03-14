@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    /* background-color: black; */
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+
+}
+
+#content {
+    background: #000;
+}
+
+.main-page {
+    height: 110vh;
+    width: 52vw;
+    margin: auto;
+    padding: 50px;
+    border: 2px solid rgb(88, 190, 65);
+    /* margin-right: auto; */
+    align-items: center;
+    border-radius: 50px;
+    background-color: rgb(88, 177, 68);
+    /* color: rgb(181, 186, 187); */
+
+}
+
+.main-page h1 {
+    text-align: center;
+    margin-bottom: 23px;
+    /* background-color: aliceblue; */
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    overflow: hidden;
+}
+
+.sidebar-left {
+    width: 40vw;
+    background: #023f29;
+    color: white;
+    text-align: center;
+    border-radius: 2px #221e3d;
+    height: 98vh;
+    border: 2px solid #221e3d;
+    border-radius: 50px;
+}
+
+/* skills progress bar starts here  */
+p {
+    font-size: 20px;
+}
+
+.skill-container {
+    background-color: rgb(192, 192, 192);
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+
+.skill {
+    background-color: rgb(141, 46, 8);
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 15px;
+    border-radius: 15px;
+
+}
+
+.html {
+    width: 80%;
+}
+
+.progress1 {
+    width: 80%;
+}
+
+.progress2 {
+    width: 60%;
+}
+
+.progress3 {
+    width: 70%;
+}
+
+.progress {
+    width: 60%;
+}
+
+.para p {
+    font-size: large;
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+
+
+.img img {
+    height: 150px;
+    /* width: 50px; */
+    border: 2px solid black;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+
+.link i {
+    font-size: 30px;
+    margin: 15px;
+}
+
+.social-icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    margin: 10px 5px 10px 0;
+    /* opacity: 0; */
+    /* animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i)); */
+}
+
+
+.social-icons a:hover {
+    background:
+        #0ef;
+    color: #1f242d;
+    box-shadow: 0 0 20px #0ef;
+}
+
+
+.content {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 43px;
+}
+
+.btn {
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #430e17;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    background: #5305c1;
+    color: #d61f1f;
+    /* transition: background 0.5s; */
+}
+
+.btn:hover {
+    background: #1d0d97;
+    color: aliceblue;
+}
+
+.sidebar-right {
+    width: 60vw;
+    border: 2px solid rgb(6, 17, 3);
+    ;
+    border-radius: 50px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.page {
+    font-size: 20px;
+    line-height: 1.3rem;
+    /* padding: 5px; */
+    margin: 12px;
+}
+
+footer {
+    background: #0f0101;
+    color: white;
+    text-align: center;
+}
+
+.education {
+    display: flex;
+    flex-wrap: wrap;
+}
+.betchler{
+    width: 100vw;
+}
+
+.tenth {
+    border: 2px solid #430e17;
+    border-radius: 20px;
+    padding: 2px;
+    margin-bottom: 22px;
+    color: #ccbfc1;
+    background-color: #430e17;
+    box-shadow: 0 0 10px 5px #d36376;
+
+    /* box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green; */
+    /* box-shadow: 10px 10px 8px 10px #888888; */
+}
